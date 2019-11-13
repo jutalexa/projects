@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="techpro1.justinalexander.com.mystylist">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".user_booked_appt"/>
+        <!--<activity android:name=".user_book_confirm" />-->
+        <activity android:name=".book_final_page" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".stylist_schedule_pick" />
+        <activity android:name=".stylist_viewavail" />
+        <!--<activity android:name=".user_final_page" />-->
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".MainActivity" /> <!-- <activity android:name=".Welcome"> -->
+        <!-- <intent-filter> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name=".regiater_activity" />
+        <activity android:name=".stylistlogin" />
+        <activity android:name=".stylisthome" />
+        <activity android:name=".calendar_view" />
+        <activity android:name=".user_time_picker" />
+        <activity android:name=".ServicePrice" />
+        <activity android:name=".SigninActivity"/>
+        <activity android:name=".stylist_appt_booked"/>
+
+
+    </application>
+
+</manifest>
